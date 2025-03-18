@@ -3,3 +3,4 @@ Every project on my Python learning path, this learning path is with the intenti
 
 
 First project: Number Guessing Game
+Second project: Word Guessing Game
