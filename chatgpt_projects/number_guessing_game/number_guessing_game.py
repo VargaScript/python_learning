@@ -9,7 +9,7 @@ Necessary steps
 
 import random
 
-ranges = input("Enter 2 numbers for the range of numbers to guess on, separated by a comma or space")
+ranges = input("Enter 2 numbers for the range of numbers to guess on, separated by a comma or space: ")
 
 if " " in ranges: 
     lower_range, higher_range = ranges.split()
@@ -21,7 +21,12 @@ else:
     
 lower_range, higher_range = int(lower_range), int(higher_range)
 machines_number = int(random.randint(lower_range, higher_range))
-chances = 7
+
+if higher_range >= 1000:
+    chances = 10
+else:
+    chances = 7
+
 counter = 0
 
 while counter < chances:
