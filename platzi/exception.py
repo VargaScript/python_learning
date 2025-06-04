@@ -1,4 +1,4 @@
 try:
-    print("Hello World)
+    print("Hello World")
 except SyntaxError as e:
     print(e)

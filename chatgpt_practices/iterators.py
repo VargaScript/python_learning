@@ -68,4 +68,3 @@ ages = [22, 11, 23, 44]
 zipped = list(zip(first_names, last_names, ages))
 for name, last_name, age in zipped:
     print(f"Hi, my name is {zipped[nfame][1]} {zipped[0][1]} and I'm {zipped[0][2]}")
-adair isai vargas pastranaasaqàaaaadfkfueruifddadir isai vargas pastrna aaasshh adair si¿i¿iiiisiajsjskjaaasdf}
